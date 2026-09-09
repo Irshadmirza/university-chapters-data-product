@@ -53,7 +53,7 @@ Only CA, OR and WA are requested.
 
 ## Setup
 
-I used Python 3.10+.
+I used Python 3.9+.
 
 Create a virtual environment:
 

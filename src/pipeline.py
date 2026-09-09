@@ -129,8 +129,10 @@ def run(input_file, output_root):
         silver_path = os.path.join(output_root, "silver/university_chapters")
         gold_path = os.path.join(output_root, "gold/university_chapters/v1")
         quarantine_path = os.path.join(
-            output_root, "quarantine/university_chapters"
-        )
+            output_root,
+            "quarantine/university_chapters",
+            bronze.select("ingest_run_id").first()["ingest_run_id"],
+        )       
 
         silver.write.mode("overwrite").parquet(silver_path)
         gold.write.mode("overwrite").parquet(gold_path)
