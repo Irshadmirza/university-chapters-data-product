@@ -1,0 +1,44 @@
+{
+  "features": [
+    {
+      "attributes": {
+        "ChapterID": "CA-0355",
+        "University_Chapter": "Example University Chapter",
+        "City": "Los Angeles",
+        "State": "CA",
+        "OBJECTID": "1"
+      },
+      "geometry": {"x": -118.2437, "y": 34.0522}
+    },
+    {
+      "attributes": {
+        "ChapterID": "CA-WARN-001",
+        "University_Chapter": "Warning Chapter",
+        "City": "UNKNOWN",
+        "State": "CA",
+        "OBJECTID": "2"
+      },
+      "geometry": {"x": -117.1611, "y": 32.7157}
+    },
+    {
+      "attributes": {
+        "ChapterID": "CA-BAD-001",
+        "University_Chapter": "Bad Coordinate Chapter",
+        "City": "Irvine",
+        "State": "CA",
+        "OBJECTID": "3"
+      },
+      "geometry": {"x": 220.0, "y": 33.6846}
+    },
+    {
+      "attributes": {
+        "ChapterID": "OR-001",
+        "University_Chapter": "Oregon Chapter",
+        "City": "Portland",
+        "State": "OR",
+        "OBJECTID": "4"
+      },
+      "geometry": {"x": -122.6765, "y": 45.5231}
+    }
+  ]
+}
